@@ -1,0 +1,110 @@
+[
+    {
+        "title": "Sapporo Dome",
+        "latitude": "43.015297",
+        "longitude": "141.410000",
+        "capacity": "41410",
+        "completedIn": "May 26, 2001",
+        "description": "Sapporo Dome is truly one of the world’s great sporting stadiums. From the outside it resembles an extra-terrestrial spacecraft, while inside, it’s a fully enclosed, 40,000 seat technological masterpiece. Designed to host baseball matches in a diamond format, it transforms and reshapes to house a rectangular field for rugby or football. Incredibly, the rectangular pitch is a natural grass turf, grown outdoors. When the stadium transforms, the pitch automatically floats into the stadium and is positioned around the newly reconfigured seating set up.",
+        "image": "images/stadiums/sapporoDome.jpg"
+    },
+    {
+        "title": "Kamaishi Recovery Memorial",
+        "latitude": "39.326675",
+        "longitude": "141.891469",
+        "capacity": "16334",
+        "completedIn": "2018",
+        "description": "Set in the absolutely stunning surroundings of densely forested mountains and with views out to the sea and surrounding countryside, the Kamaishi Recovery Memorial Stadium pays tribute to the people of Kamaishi. To those who perished in the Tsunami on 11 March 2011, those who have taken part in its glorious rugby history and for those who live on in this most famous of Japanese rugby towns. The stadium was built on the site of the former elementary and junior high schools that were completely wiped out by the torrential waves on that fateful day in 2011. While the location brings up deep emotions when remembering all those who were lost, the site also remembers the ‘Miracle of Kamaishi’ in which all the children from both schools were saved by escaping to higher ground. As fans from across the world scream and cheer with delight during Rugby World Cup 2019, this town, so famous for its rugby history will take another major step in its ongoing recovery.",
+        "image": "images/stadiums/kamaishiRecoveryMemorialStadium.JPG"
+    },
+    {
+        "title": "Kumagaya Rugby Stadium",
+        "latitude": "36.168333",
+        "longitude": "139.402453",
+        "capacity": "25600",
+        "completedIn": "1991",
+        "description": "Built in 1991, Kumagaya Rugby Stadium is a favourite of Japanese rugby fans as one of the country’s premier stadia built exclusively for rugby. It has played host to many iconic matches over the years including the national university rugby championships and the annual springtime national high school tournament. It also regularly hosts Top League matches, Japan’s premier club rugby competition. The stadium was completely refurbished ahead of Rugby World Cup 2019, making it a truly world class, international rugby venue.",
+        "image": "images/stadiums/kumagayaStadium.jpg"
+    },
+    {
+        "title": "Tokyo Stadium",
+        "latitude": "35.664352",
+        "longitude": "139.527156",
+        "capacity": "49970",
+        "completedIn": "October 2000",
+        "description": "Situated 40 minutes by train to the west of central Tokyo, Tokyo Stadium will host some of Rugby World Cup’s biggest matches, including the opening ceremony and the match that kicks it all off on 20 September when host nation Japan takes on Russia. Tokyo Stadium is a regular venue for Top League, Japan’s premier club rugby competition and will also play host to the Olympic Rugby Sevens at Tokyo 2020.",
+        "image": "images/stadiums/tokyoStadium.jpg"
+    },
+    {
+        "title": "International Stadium Yokohama",
+        "latitude": "35.509994",
+        "longitude": "139.606410",
+        "capacity": "72327",
+        "completedIn": "October 1997",
+        "description": "Yokohama is often credited as the birthplace of rugby in Japan with rugby matches reportedly taking place as early as the 1860s at the Yokohama Football Club, known today as the Yokohama Country and Athletic Club. With such a deep link to rugby’s history in Japan its fitting that Yokohama plays host to some of the biggest matches of Rugby World Cup 2019, and none bigger than the final on 2 November. An absolute cauldron of a venue, the atmosphere at Yokohama International Stadium will be pumping for every match.",
+        "image": "images/stadiums/internationalStadiumYokohama.jpg"
+    },
+    {
+        "title": "Shizuoka Stadium Ecopa",
+        "latitude": "34.743503",
+        "longitude": "137.970776",
+        "capacity": "50889",
+        "completedIn": "March, 2001",
+        "description": "It’s hard to imagine a more picturesque setting for a Rugby World Cup venue. Nestled in among green, verdant hills and looking out across Shizuoka’s famous tea plantations, Shizuoka Stadium ECOPA is set to host some incredible matches at Rugby World Cup 2019, including the massive Japan vs Ireland game on 28 September.",
+        "image": "images/stadiums/shizuokaStadiumEcopa.jpg"
+    },
+    {
+        "title": "City of Toyota Stadium",
+        "latitude": "35.084583",
+        "longitude": "137.170925",
+        "capacity": "45000",
+        "completedIn": "June 2001",
+        "description": "There isn’t a single seat in the purpose-built, rectangular City of Toyota Stadium that doesn’t have an absolute cracking view of the on-field action. With its steep, high stands, fans feel like they’re on top of the field. Set to host some truly epic matches, including the massive Japan v Samoa game, City of Toyota Stadium will be absolutely pumping across all four of its Rugby World Cup 2019 fixtures.",
+        "image": "images/stadiums/toyotaStadium.jpg"
+    },
+    {
+        "title": "Hanazono Rugby Stadium",
+        "latitude": "34.669098",
+        "longitude": "135.626270",
+        "capacity": "24000",
+        "completedIn": "1929",
+        "description": "With its long history dating back to 1929 and as the home of Japanese High School Rugby, Hanazono holds a special place in the hearts of all Japanese rugby fans and is considered by many as the spiritual home of Japanese rugby. Millions of Japanese rugby fans can trace their first memories of rugby back to classic matches played on this historic turf. Having undergone extensive refurbishment ahead of the tournament, Hanazono will write another thrilling chapter in its proud history as it hosts four Rugby World Cup 2019 matches.",
+        "image": "images/stadiums/hanazonoStadium.JPG"
+    },
+    {
+        "title": "Kobe Misaki Stadium",
+        "latitude": "34.656859",
+        "longitude": "135.169618",
+        "capacity": "30132",
+        "completedIn": "2001",
+        "description": "Nestled inside the thoroughly cosmopolitan and quietly sophisticated port city of Kobe, Kobe Misaki Stadium will offer fans an unforgettable Rugby World Cup 2019 experience. Compact and intimate, this purpose-built rectangular stadium will afford fans, no matter where in the stadium they are sitting, an up-close view of all the on-field action.",
+        "image": "images/stadiums/kobeMisakiStadium.jpg"
+    },
+    {
+        "title": "Fukuoka Hakatanomori",
+        "latitude": "33.586013",
+        "longitude": "130.460897",
+        "capacity": "21562",
+        "completedIn": "1995",
+        "description": "Surrounded by green, verdant forest and on the very doorstep of the wonderfully cosmopolitan yet laidback southern city of Fukuoka, Fukuoka Hakatanomori Stadium will be an incredible venue from which to enjoy some cracking Rugby World Cup 2019 action. Being a compact and intimate venue and a purpose-built rectangular stadium, fans will enjoy being close to the on-field action, and close to the city of Fukuoka in order to enjoy the pre and post-match atmosphere back in town.",
+        "image": "images/stadiums/fukuokaHakatanomoriStadium.jpg"
+    },
+    {
+        "title": "Kumamoto Stadium",
+        "latitude": "32.836882",
+        "longitude": "130.800073",
+        "capacity": "30228",
+        "completedIn": "August 1998",
+        "description": "Japan has a wonderful obsession of building amazing sporting stadia in the midst of the most beautiful natural surroundings. Set among green forested hills, rolling parkland and rich agricultural land, Kumamoto Stadium is a prime example of this. Hosting two Rugby World Cup 2019 fixtures, Kumamoto Stadium will hum with passion and excitement as capacity crowds cheer on the competing teams.",
+        "image": "images/stadiums/kumamotoStadium.jpg"
+    },
+    {
+        "title": "Oita Stadium",
+        "latitude": "33.200790",
+        "longitude": "131.657499",
+        "capacity": "40000",
+        "completedIn": "March 2001",
+        "description": "Set within stunning parkland just outside Oita City, Oita Stadium will host five epic Rugby World Cup 2019 matches including the quarterfinals of Pools A and B. As the largest Rugby World Cup 2019 venue on the southern island of Kyushu, Oita will truly rock as rugby fans from throughout Japan and across the world come together to watch some of the biggest names in the world of rugby battle it out on their quest to raise the Webb Ellis cup and be crowned rugby world champions.",
+        "image": "images/stadiums/oitaStadium.jpg"
+    }
+]
