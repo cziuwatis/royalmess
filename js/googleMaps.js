@@ -81,7 +81,7 @@ async function displayMap()
     let map_context_cancel_element = document.getElementById('mc_cancel');
     //end of map context menu elements
     let map_element = document.getElementById('map');
-    let json_url = "../json/stadiums.json";
+    let json_url = "https://cziuwatis.github.io/royalmess/json/stadiums.json";
     let url_parameters = "";
     /****/
     let autocomplete_options =
