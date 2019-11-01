@@ -4,12 +4,7 @@ async function loadMatches()
     let url_parameters = "";
     try
     { 
-        const response = await fetch(json_url,
-                {
-                    method: "POST",
-                    headers: {'Content-type': 'application/x-www-formurencoded; charset=UTF-8', 'dataType': 'json'},
-                    body: url_parameters
-                });
+        const response = await fetch(json_url);
         let fetchedData = await response.json();
         updateMatches(fetchedData);
     } catch (error)
