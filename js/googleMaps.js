@@ -292,7 +292,7 @@ async function displayMap()
     {
         const response = await fetch(json_url,
                 {
-                    method: "POST",
+                    method: "GET",
                     headers: {'Content-type': 'application/x-www-formurencoded; charset=UTF-8'},
                     body: url_parameters
                 });
