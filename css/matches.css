@@ -46,6 +46,10 @@
         float:left !important;
         width: 20% !important;
     }
+    #matches-menu li
+    {
+        height: 6.5em !important;
+    }
 }
 @media(max-width:480px)
 {
@@ -85,15 +89,16 @@
     width:20%;
     background-color:#c82727 !important;
     color: white;
-    height: 5.5em;
+    height: 4.5em;
     text-align: center;
     font-size: 1.3em;
     font-weight: bold;
+    font-family: 'animeace';
     transition-duration: .6s;
 }
 #matches-menu li a
 {
-    padding-top: 1.7em;
+    padding-top: 1.5em;
     height: 100%;
     width: 100%;
     color: white;

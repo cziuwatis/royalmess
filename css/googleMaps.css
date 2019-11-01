@@ -340,6 +340,26 @@
     {
         width: 35% !important;
     } 
+    #map_control_panel
+    {
+        font-size: 1.4em;
+    }
+    #map_nearby_service_type h5
+    {
+        font-size: 1em;
+    }
+    #map_nearby_service_type ul li
+    {
+        font-size: 12px !important;
+    }
+}
+@media(max-width:480px){
+
+    #map_directions
+    {    
+        width: 15em;
+        font-size: .8em;
+    }
 }
 #map_context_menu
 {

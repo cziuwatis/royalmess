@@ -380,7 +380,7 @@ ul.agile_forms {
 .banner-bottom {
     position: absolute;
     left: 12%;
-    bottom: -14%;
+    bottom: 5%;
 }
 .banner-silder {
     position: relative;
@@ -425,7 +425,7 @@ ul.agile_forms {
     padding: 1em 1em 0 1em;
     background: rgba(3, 3, 3, 0.53);
     min-height: 230px;
-    border: 2px solid #c82727;
+    border: 5px solid #c82727;
 }
 .view .mask,.view .content {
     position: absolute;
@@ -994,6 +994,7 @@ img.img-r {
     background-size: cover;
     text-align:center;
     min-height:500px;
+    margin-top: 15em;
 }
 
 .banner-info h3 {
@@ -1414,6 +1415,36 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter{
     .conact-w3-inner2 h3 i {
         width: 19%;
     }
+    .banner-info{
+        margin-top: 15em !important;
+    }
+    #stadiumNames div
+    {
+        font-size: 1em !important;
+    }
+    #stadiums
+    {
+        overflow: visible !important;
+        margin-top: 5em !important;
+        margin-bottom: 26em !important;
+    }
+    #stadiumsContainerTitle
+    {
+        font-size: 2em;
+    }
+    #stadiumDescription
+    {
+        font-size: .9em !important;
+    }
+    #stadiumDescription .stadium_image_container
+    {
+        height: 15em !important;
+    }
+    #stadiumsSideDecoration
+    {
+        display: none;
+    }
+
 }
 @media(max-width:1024px){
     .banner-bottom {
@@ -1616,6 +1647,13 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter{
     .banner-bottom {
         left: 0;
     }
+    .banner-info{
+        margin-top: 25em !important;
+    }
+    #stadiumDescription
+    {
+        font-size: .7em !important;
+    }
 
 }
 @media(max-width:736px){
@@ -1688,6 +1726,11 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter{
     }
     .agileits-banner-info p:before {
         left: 70px;
+    }
+    .navbar-brand
+    {
+        font-size: .5em !important;
+        height: 80px !important;
     }
 }
 @media(max-width:600px){
@@ -1963,6 +2006,13 @@ ul.w3agile_footer_grid_list i.fa.fa-twitter{
     }
     .error_message_show{
         bottom: 3em !important;
+    }
+    #stadiumDescription .stadium_image_container
+    {
+        height: 10em !important;
+    }
+    .banner-info{
+        margin-top: 45em !important;
     }
 }
 @media(max-width:384px){
