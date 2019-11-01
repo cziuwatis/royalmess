@@ -290,12 +290,7 @@ async function displayMap()
     });
     try
     {
-        const response = await fetch(json_url,
-                {
-                    method: "POST",
-                    headers: {'Content-type': 'application/x-www-formurencoded; charset=UTF-8'},
-                    body: url_parameters
-                });
+        const response = await fetch(json_url);
         let fetchedData = await response.json();
         updateGoogleMaps(fetchedData);
     } catch (error)
