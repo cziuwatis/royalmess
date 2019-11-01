@@ -7,7 +7,7 @@ async function loadMatches()
         const response = await fetch(json_url,
                 {
                     method: "POST",
-                    headers: {'Content-type': 'application/x-www-formurencoded; charset=UTF-8'},
+                    headers: {'Content-type': 'application/x-www-formurencoded; charset=UTF-8', 'dataType': 'json'},
                     body: url_parameters
                 });
         let fetchedData = await response.json();
