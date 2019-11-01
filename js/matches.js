@@ -3,7 +3,8 @@ async function loadMatches()
     let json_url = "json/matches.json";
     let url_parameters = "";
     try
-    {
+    { 
+        loadJSON(json_url, updateMatches);
         const response = await fetch(json_url,
                 {
                     method: "POST",
