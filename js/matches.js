@@ -4,7 +4,6 @@ async function loadMatches()
     let url_parameters = "";
     try
     { 
-        loadJSON(json_url, updateMatches);
         const response = await fetch(json_url,
                 {
                     method: "POST",
