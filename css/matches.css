@@ -1,0 +1,206 @@
+.m_anchor
+{
+    display: block;
+    position: relative;
+    top: -2em;
+    visibility: hidden;
+}
+@media(max-width:736px)
+{
+    #matches
+    {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .match
+    {
+        font-size: 1em;
+    }
+    .country-flag-left img,
+    .country-flag-right img
+    {
+        height: 20% !important;
+    }
+    .country-flag-left,
+    .country-flag-right
+    {
+        width: 30% !important;
+    }
+    .country-name-left,
+    .country-name-right
+    {
+        width: 70% !important;
+    }
+    .match-right,
+    .match-left
+    {
+        width: 25% !important;
+        line-height: 1em !important;
+    }
+    .match-middle
+    {
+        width:30% !important;
+    }
+    .stadium-name-right
+    {
+        float:left !important;
+        width: 20% !important;
+    }
+}
+@media(max-width:480px)
+{
+    .match
+    {
+        font-size: .8em;
+    }
+}
+@media(max-width:384px)
+{
+    .match
+    {
+        font-size: .5em;
+    }
+}
+#matches
+{
+    height: 35em;
+    overflow: auto;
+    margin-right:10%;
+    margin-left: 10%;
+    scroll-behavior: smooth;
+}
+#matches-menu-container
+{
+    padding:0;
+}
+#matches-menu
+{
+    width:100%;
+    list-style: none;
+    box-shadow: rgb(0, 0, 0) 0px 0px 8px 2px;
+}
+#matches-menu li
+{
+    float:left;
+    width:20%;
+    background-color:#c82727 !important;
+    color: white;
+    height: 5.5em;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    transition-duration: .6s;
+}
+#matches-menu li a
+{
+    padding-top: 1.7em;
+    height: 100%;
+    width: 100%;
+    color: white;
+    display: block;
+    text-decoration: none;
+    overflow-wrap: break-word;
+}
+#matches-menu li:hover
+{
+    background-color: #e82727 !important;
+    cursor: pointer;
+}
+#matches ul li:nth-child(2n)
+{
+    background-color: #eee;
+}
+.match
+{
+    width: 100%;
+    height: 5em;
+    list-style: none;
+}
+.match div
+{
+    height: 100%;
+}
+.match-right,
+.match-left
+{
+    float: left;
+    width: 35%;
+    line-height: 5em;
+}
+.match-right div,
+.match-left div
+{
+    height: 100%;
+    width: 50%;
+}
+.country-name-left
+{
+    float: right;
+    text-align:center;
+}
+.country-name-right
+{
+    float: left;
+    text-align:center;
+}
+.country-name-left a,
+.country-name-right a
+{
+    color: #e82727;
+    transition-duration: .3s;
+}
+.country-name-left a:hover,
+.country-name-right a:hover
+{
+    color: #ff4747;
+}
+.country-flag-right,
+.country-flag-left
+{
+    width: 40%;
+}
+.country-flag-left
+{
+    float: left;
+    text-align: right;
+}
+.country-flag-right
+{
+    float: right;
+    text-align: left;
+}
+.country-flag-left img,
+.country-flag-right img
+{
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 4px 1px;
+}
+.match-middle
+{
+    text-align: center;
+    float: left;
+    width: 20%;
+    vertical-align: bottom;
+}
+.match-middle .match-score
+{
+    height: 70%;
+    line-height: 4em;
+}
+.match-middle .match-date
+{
+    height:30%;
+}
+.stadium-name-right
+{
+    float:right;
+    width:10%;
+    height: 100%;
+    text-align: center;
+}
+.pool-group
+{
+    text-align: center;
+    margin-top:1em;
+    margin-bottom:.2em;
+    margin-right: 10%;
+}

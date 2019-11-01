@@ -1,0 +1,155 @@
+@font-face
+{
+    font-family: 'animeace';
+    src: url('../fonts/animeace.ttf');
+}
+@font-face
+{
+    font-family: 'animeaceb';
+    src: url('../fonts/animeace_b.ttf');
+}
+#stadiums
+{
+    margin-top: 10em;
+}
+#stadiumsContainerTitle
+{
+    font-size: 4em;
+    text-align: center;
+}
+#stadiumsContainer
+{
+    color: white;
+    height: 40em;
+    padding-top: 1em;
+    background: url("../images/rugbyasianscultural.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin-bottom:2em;
+}
+#stadiumsContainer div.row
+{
+    height: 100%;
+}
+#stadiumNames
+{
+    border-right-style: dotted;
+    border-right-width: 4px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-top-style: solid;
+    border-top-width: 10px;
+    max-height:35em;
+    overflow: auto;
+}
+#stadiumNames div
+{
+    font-size: 1.6em;
+    transition-duration: .6s;
+    font-family: 'njnaruto';
+    padding-bottom: .5em;
+    color: #ffffffa8;
+}
+#stadiumNames div:hover
+{
+    background-color: #f61111d1;
+    cursor: pointer;
+    color: white;
+}
+#stadiumContent,
+#stadiumNames,
+#stadiumsSideDecoration
+{
+    border-color: #c82727;
+}
+#stadiumContent
+{
+    /*background-color: rgba(123, 21, 21, 0.81);*/
+    background-color: rgba(3, 3, 3, 0.53);
+    border-style: solid;
+    border-width: 2px;
+    border-top-width:10px;
+    border-left: 0;
+    border-right: 0;
+    height: 35em;
+    overflow: auto;
+}
+#stadiumDescription
+{
+    padding: 10px;
+    padding-top: 5em;
+    height: 100%;
+    font-family: 'animeace';
+}
+#stadiumDescription strong
+{
+    font-family: 'animeaceb';
+}
+#stadiumDescription .stadium_image_container
+{
+    float: right;
+    height: 13em;
+    width: 50%;
+    margin: .5em;
+}
+#stadiumDescription .stadium_image_container img
+{
+    border-radius: 10px;
+    width:100%;
+    height: 100%;
+}
+#stadiumDescription .stadium_image_container a
+{
+    display: block;
+    width: 100%;
+    font-size: 1.5em;
+}
+#stadiumsSideDecoration
+{
+    /*background: linear-gradient(90deg, rgba(123,21,21,0.81) 20%, rgba(123,21,21,0) 100%);*/
+    background: linear-gradient(90deg, rgba(3, 3, 3, 0.53) 20%, rgba(3, 3, 3, 0) 100%);
+    height:35em;
+    border-style: solid;
+    border-width: 2px;
+    border-top-width:10px;
+    border-left: 0;
+    border-right: 0;
+    border-top-right-radius: 115px;
+}
+.stadium-selected
+{
+    background-color: rgb(139, 26, 26);
+    color: white !important;
+    border-left: .5em solid #c82727;
+    border-right: .5em solid #c82727;
+}
+.show-nice
+{
+    display: block !important;
+    animation-name: niceappear;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+
+}
+@keyframes niceappear
+{
+    0%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        width:1;
+    }
+}
+.gallery-panel-left-arrow-icon
+{
+    font-size: 4em !important;
+    width: 100%;
+}
+.gallery-panel-start-text
+{
+    font-size: 2em;
+}

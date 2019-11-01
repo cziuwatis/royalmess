@@ -1,0 +1,383 @@
+#map
+{
+    min-height: 44em;
+}
+#map_container
+{
+    position:relative;
+    overflow: hidden;
+}
+#map_nearby_service_type,
+#map_control_panel,
+#map_directions,
+.service_content,
+#marker_content,
+#map_nearby_service_loading,
+#map_context_menu
+{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+}
+#map_nearby_service_loading
+{
+    margin-right: .3em;
+    margin-top:.2em;
+    border-radius: 2px;
+    background-color: white;
+    font-size: 1.5em;
+    padding: 10px;
+    visibility: hidden;
+}
+#map_nearby_service_type
+{
+    margin-right: .3em;
+    margin-top:.2em;
+    border-radius: 2px;
+    background-color: white;
+    padding:10px;
+}
+#map_nearby_service_type h5
+{
+    border-bottom-color: lightgray;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1.7em;
+}
+#map_nearby_service_type ul
+{
+    list-style: none;
+}
+#map_nearby_service_type label
+{
+    font-weight: 300;
+    font-size: 1.2em;
+}
+#map_nearby_service_type ul li input
+{
+    float:right;
+}
+#map_control_panel
+{
+    font-size:1.6em;
+    z-index: 2;
+    background-color: #fff;
+    padding: 5px;
+    margin-left: .3em;
+    border-radius:4px;
+}
+#map_control_panel input
+{
+    width: 15em;
+    margin-top:.2em;
+    margin-right:.5em;
+    border-radius:2px;
+}
+#map_control_panel button
+{
+    margin-top: .3em;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 3px;
+    color: black;
+    font-weight: bold;
+    box-shadow: 1px 1px 0px 0px #515151;
+    transition-duration:0.2s;
+}
+#map_control_panel button:hover
+{
+    background: #e81333;
+    color: white;
+}
+#map_control_panel i:hover
+{
+    cursor: pointer;
+}
+#map_directions
+{
+    overflow:auto;
+    height: 30em;
+    background-color: white;
+    padding:10px;
+    border-radius: 4px;
+    margin-top: 2.5em;
+    margin-left: .5em;
+    visibility: hidden;
+    width: 35.5em;
+}
+@media (max-width: 768px) {
+    #map_directions
+    {
+        width: 24em;
+    }
+}
+#map_transport_mode
+{
+    margin-top: 3em;
+    margin-left:1.7em;
+    visibility: hidden;
+}
+#map_transport_mode button
+{
+    font-size: 4em;
+    width: 2em;
+    background: rgba(33,33,33, .2);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    transition-duration: .6s;
+}
+#map_transport_mode button:hover
+{
+    background: rgba(33,33,33, .6);
+}
+#map_transport_mode img
+{
+    width:100%;
+}
+.unhide
+{
+    transition-duration: 1s;
+    visibility: visible !important;
+}
+#marker_content
+{
+    width:47em;
+    background-color: white;
+    border-color: rgb(203, 13, 13);
+    border-style: solid;
+    border-width: 12px;
+    overflow: hidden;
+    border-radius: 10px;
+    border-top-width: 0px;
+}
+.marker_content:before{
+    content: "";
+    position: absolute;
+    bottom:-24px;
+    left: 10px;
+    z-index: 1;
+    border: solid 15px transparent;
+    border-top-color: rgb(203, 13, 13);
+}
+#marker_header
+{
+    height:25em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+}
+#marker_header i
+{
+    float:right;
+    font-size: 3em;
+    color: whitesmoke;
+    padding: 5px;
+    transition-duration: .5s;
+    cursor: pointer;
+    height: 100%;
+}
+#marker_header i:hover
+{
+    font-size: 3.1em;
+    background-color: rgba(226, 66, 66, 1);
+}
+#marker_header #marker_more_info
+{
+    float: left;
+    width: 1.5em;
+    text-align: center;
+}
+#marker_header h2
+{
+    color: whitesmoke;
+    position: absolute;
+    bottom:0;
+    margin:0;
+    padding-top: .6em;
+    padding-bottom: .6em;
+    padding-left: .2em;
+    font-size: 2.4em;
+    width:100%;
+    background-color: rgba(33,33,33,.6);
+}
+#marker_address
+{
+    border-top-color: lightgray;
+    border-top-style: solid;
+    border-top-width: 1px;
+    margin: .5em;
+    font-style: italic;
+}
+#marker_icons_container
+{
+    height: 4em;
+    background-image: linear-gradient(90deg, #b51a1a 25%, #cb0d0d 25%, #cb0d0d 50%, #b51a1a 50%, #b51a1a 75%, #cb0d0d 75%, #cb0d0d 100%);
+    background-size: 48.00px 48.00px;
+}
+.service_content
+{
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 1.3em;
+    border-radius: 5px;
+    border-color: rgb(203, 13, 13);
+    width: 38em;
+    padding: 5px;
+}
+.service_content:before{
+    content: "";
+    position: absolute;
+    bottom:-37px;
+    left: 10px;
+    z-index: 1;
+    border: solid 15px transparent;
+    border-top-color: rgb(203, 13, 13);
+}
+.service_type
+{
+    border-bottom-color: lightgray;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    font-style: italic;
+    font-size: .9em;
+}
+.service_type img
+{
+    width:45px;
+    height:45px;
+}
+.service_coordinate_icons
+{
+    float: right;
+    font-size: 4.25em;
+    width:30%;
+}
+.service_coordinate_icons i
+{
+    width:50%;
+    text-align: center;
+    color: rgb(203, 22, 22);
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    transition-duration: .5s;
+    cursor: pointer;
+}
+.service_coordinate_icons i:hover
+{
+    background-color: rgb(203, 22, 22);
+    color: whitesmoke;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.service_title
+{
+    font-size: 2em;
+    font-weight: 400;
+}
+.service_img
+{
+    height: 18em;
+    width:100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: .5em;
+    border-color: rgb(203, 13, 13);
+    border-top-style: solid;
+    border-top-width: 1em;
+    border-bottom-width: .5em;
+    border-bottom-style: solid;
+}
+.service_details
+{
+    border-top-color: lightgray;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom-color: lightgray;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    height: 21em;
+}
+.service_opening_hours
+{
+    float:right;
+    width:50%;
+    height:100%;
+    font-size: 1.2em;
+}
+.service_address
+{
+    width: 50%;
+    float:left;
+    font-size: 1.2em;
+}
+.service_phone
+{
+    font-style: italic;
+    font-size: .9em;
+    padding-bottom: .1em;
+    padding-top: 3.1em;
+}
+.animate-marker,
+.service_content
+{
+    display: block !important;
+    animation-name: niceappear;
+    animation-duration: .5s;
+    animation-timing-function: linear;
+}
+@media(max-width:1280px)
+{
+    #map_context_menu
+    {
+        width: 30% !important;
+    }
+}
+@media(max-width:736px)
+{
+    #map_context_menu
+    {
+        width: 35% !important;
+    } 
+}
+#map_context_menu
+{
+    width: 18%;
+    position: absolute;
+    display: none;
+    z-index: 1;
+    text-align: center;
+}
+#map_context_menu ul
+{
+    list-style: none;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+#map_context_menu ul:before
+{
+    content: '';
+    position: absolute;
+    top: -21px;
+    left:0px;
+    z-index: 1;
+    border: solid 15px transparent;
+    border-bottom-color: white;
+}
+#map_context_menu ul li
+{
+    font-size: 1.5em;
+    font-family: 'Roboto';
+    font-weight: 300;
+    transition-duration: .6s;
+    cursor: pointer;
+    padding: 1%;
+}
+#map_context_menu ul li:hover
+{
+    background: #00000024;
+}
