@@ -2,6 +2,8 @@ async function loadMatches()
 {
     let json_url = "https://cziuwatis.github.io/royalmess/json/matches.json";
     let url_parameters = "";
+    try
+    {
         const response = await fetch(json_url,
                 {
                     method: "POST",
@@ -10,6 +12,10 @@ async function loadMatches()
                 });
         let fetchedData = await response.json();
         updateMatches(fetchedData);
+    } catch (error)
+    {
+        console.log("Fetch failed: ", error);
+    }
     function updateMatches(jsonData)
     {
         let pool = document.getElementById("poolA");
