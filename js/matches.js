@@ -1,6 +1,6 @@
 async function loadMatches()
 {
-    let json_url = "json/matches.json";
+    let json_url = "https://cziuwatis.github.io/royalmess/json/matches.json";
     let url_parameters = "";
     try
     {
